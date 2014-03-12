@@ -32,7 +32,7 @@ public class GetSomeJava8 {
             final Integer v1 = wordsCount.get(s);
             final Integer v2 = wordsCount2.get(s);
 
-            if (v1 == null || !v1.equals(v2)) { //yeah NullPointer. not a chance
+            if (v1 == null || !v1.equals(v2)) { //yeah NullPointer. not a chance.
                 System.out.println("s: " + s + " v1: " + v1 + " v2 " + v2);
             }
         }
